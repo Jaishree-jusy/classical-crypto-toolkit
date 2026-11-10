@@ -10,14 +10,14 @@ A desktop application (Python + Tkinter) that implements the classical ciphers f
 
 | Tab in the app | What it demonstrates | Syllabus topic |
 |---|---|---|
-| **Substitution** | Encrypt / decrypt with a 26-letter key, and **break the cipher without the key** using frequency analysis | Simple substitution cipher, cryptanalysis of a simple substitution (Module 1) |
-| **Double Transposition** | Two rounds of columnar transposition with two keywords, with a grid view | Double transposition cipher (Module 1) |
-| **One-Time Pad** | Encrypt / decrypt with a random key, key generator | One-time pad (Module 1) |
-| **OTP Reuse Attack** | Shows why a pad key must never be reused, and recovers text with a "crib drag" | One-time pad, Project VENONA (Module 1) |
-| **Hash & HMAC** | MD5, SHA-1, SHA-256, SHA-512, SHA3-256 of text or files; HMAC; avalanche effect | Hash function, HMAC, uses of hash functions (Module 2) |
-| **Integrity Checker** | Save a baseline (hash + HMAC) of a file and later detect any change | Uses of hash functions, HMAC (Module 2) |
-| **Birthday Attack** | Finds a real hash collision on a shortened hash and compares it with theory | The birthday problem (Module 2) |
-| **Other Ciphers** | Caesar, Vigenere, Playfair, Hill (2x2), Rail Fence + Caesar brute force and frequency attack | Classic crypto (Module 1) - extra |
+| **Substitution** | Encrypt / decrypt with a 26-letter key, and **break the cipher without the key** using frequency analysis | Simple substitution cipher, cryptanalysis of a simple substitution  |
+| **Double Transposition** | Two rounds of columnar transposition with two keywords, with a grid view | Double transposition cipher  |
+| **One-Time Pad** | Encrypt / decrypt with a random key, key generator | One-time pad  |
+| **OTP Reuse Attack** | Shows why a pad key must never be reused, and recovers text with a "crib drag" | One-time pad, Project VENONA  |
+| **Hash & HMAC** | MD5, SHA-1, SHA-256, SHA-512, SHA3-256 of text or files; HMAC; avalanche effect | Hash function, HMAC, uses of hash functions |
+| **Integrity Checker** | Save a baseline (hash + HMAC) of a file and later detect any change | Uses of hash functions, HMAC |
+| **Birthday Attack** | Finds a real hash collision on a shortened hash and compares it with theory | The birthday problem |
+| **Other Ciphers** | Caesar, Vigenere, Playfair, Hill (2x2), Rail Fence + Caesar brute force and frequency attack | Classic crypto  |
 
 Every tab has a **Clear** button next to its other buttons. It empties the text boxes so you can start a new example without pressing Ctrl+A and Backspace. Keys and settings you typed are kept (the Integrity Checker tab also clears the file path).
 
